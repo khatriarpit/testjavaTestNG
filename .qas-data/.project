@@ -1,0 +1,20 @@
+{
+    "additionalFields": {
+        "mobileweb": {
+            "baseurl": "http://www.google.com"
+        },
+        "web": {
+            "baseurl": "http://www.google.com"
+        }
+    },
+    "framework": "testng",
+    "language": "java",
+    "projectSettings": {
+        "projectName": "tesstjavatestng",
+        "projectPath": "d:\\Demo"
+    },
+    "projectTypes": [
+        "web",
+        "mobileweb"
+    ]
+}

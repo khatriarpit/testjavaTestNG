@@ -1,0 +1,223 @@
+{
+    "steps": [
+        {
+            "command": "Open",
+            "element": "",
+            "eArray": [],
+            "input": "http://www.google.com",
+            "status": "NotRun",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": ""
+        },
+        {
+            "command": "Clear",
+            "element": "text.search",
+            "eArray": [
+                [
+                    "name=q",
+                    "name"
+                ],
+                [
+                    "xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div[2]/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input[name=\"q\"]",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::input[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Images'])[1]/following::input[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='hello'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "text.search",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "text.search",
+            "elementDesc": "Input for Search",
+            "indexColumn": "",
+            "tcId": "14"
+        },
+        {
+            "command": "Type",
+            "element": "text.search",
+            "eArray": [
+                [
+                    "name=q",
+                    "name"
+                ],
+                [
+                    "xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div[2]/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input[name=\"q\"]",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::input[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Images'])[1]/following::input[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='hello'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "text.search",
+                    "key"
+                ]
+            ],
+            "input": "hello",
+            "status": "NotRun",
+            "elementKey": "text.search",
+            "elementDesc": "Input for Search",
+            "indexColumn": ""
+        },
+        {
+            "command": "Submit",
+            "element": "form.tsf",
+            "eArray": [
+                [
+                    "id=tsf",
+                    "id"
+                ],
+                [
+                    "name=f",
+                    "name"
+                ],
+                [
+                    "xpath=//div[@id='searchform']/form",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//form",
+                    "xpath:position"
+                ],
+                [
+                    "css=#tsf",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::form[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Images'])[1]/following::form[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "form.tsf",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "form.tsf",
+            "elementDesc": "FORM tsf",
+            "indexColumn": "",
+            "tcId": "14"
+        },
+        {
+            "command": "Click",
+            "element": "link.news",
+            "eArray": [
+                [
+                    "xpath=//a[contains(text(),'News')]",
+                    "xpath:link"
+                ],
+                [
+                    "xpath=//div[@id='hdtb-msb-vis']/div[3]/a",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a[contains(@href, '/search?q=hello&source=lnms&tbm=nws&sa=X&ved=2ahUKEwiijOnAv8vmAhVSH7cAHaVvDvQQ_AUoAnoECBAQBA')]",
+                    "xpath:href"
+                ],
+                [
+                    "xpath=//div/div/div/div/div[3]/a",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Maps'])[1]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Videos'])[1]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Images'])[1]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "link.news",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "NotRun",
+            "elementKey": "link.news",
+            "elementDesc": "Link for News",
+            "indexColumn": "",
+            "tcId": "14"
+        }
+    ],
+    "type": "web",
+    "capabilities": {
+        "remoteUrl": "http://www.google.com",
+        "type": "web",
+        "selectBrowser": "chrome",
+        "selectDevice": "",
+        "isRemote": false,
+        "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+        "isDebugMode": "",
+        "details": {
+            "deviceMetrics": {
+                "name": "",
+                "width": "",
+                "height": "",
+                "pixelRatio": "",
+                "userAgent": ""
+            }
+        }
+    },
+    "testDataExample": [],
+    "isTCValid": true,
+    "executionStatus": "NotRun"
+}
