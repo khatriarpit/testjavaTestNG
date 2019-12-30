@@ -1,0 +1,6 @@
+input.search = {\"locator\":\"name=q\",\"desc\":\"Search Input Box\"}
+button.search = {\"locator\":\"name=btnG\",\"desc\":\"Search Button\"}
+
+text.search={"locator":"name=q","desc":"Input for Search"}
+form.tsf={"locator":"id=tsf","desc":"FORM tsf"}
+link.news={"locator":"xpath=//a[contains(text(),'News')]","desc":"Link for News"}
